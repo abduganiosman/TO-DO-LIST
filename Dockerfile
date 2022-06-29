@@ -5,7 +5,7 @@ FROM node:current-alpine
 RUN mkdir -p /usr/src/app
 
 #Copy app code (.) to /usr/src/appo in container image
-COPY . /usr/usr/app
+COPY . /usr/src/app
 
 #Set working dir context
 WORKDIR /usr/src/app
